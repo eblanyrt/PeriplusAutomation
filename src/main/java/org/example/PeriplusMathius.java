@@ -25,8 +25,8 @@ public class PeriplusMathius {
     public void login() throws InterruptedException {
         driver.findElement(By.linkText("Sign In")).click();
         Thread.sleep(2000);
-        driver.findElement(By.name("email")).sendKeys("mathiusronaldoi@gmail.com");
-        driver.findElement(By.name("password")).sendKeys("Invincible1");
+        driver.findElement(By.name("email")).sendKeys("example@mail.com");
+        driver.findElement(By.name("password")).sendKeys("password");
         driver.findElement(By.id("button-login")).click();
     }
 
